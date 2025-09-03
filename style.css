@@ -1,5 +1,6 @@
 .body{
     background-color: #c0e0ef;
+    margin: 0;
 }
 
 .heading1{
@@ -7,4 +8,56 @@
     font-size: 50px;
     margin-left: 60px;
     font-family:'Courier New', Courier, monospace;
+}
+
+.heading2{
+    text-align: left;
+    font-size: 80px;
+    margin-left: 60px;
+    font-family: Cochin;
+}
+
+.heading3{
+    text-align: left;
+    font-size: 80px;
+    margin-left: 250px;
+    font-family: cochin;
+    line-height: 0%;
+}
+
+.about-me{
+    text-align: left;
+    font-size: 20px;
+    margin-left: 150px;
+    font-family: cochin;
+    line-height: 200%;
+}
+
+.white-bar{
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    margin-top: 200px;
+}
+
+.heading1-2{
+    text-align: center;
+    font-size: 50px;
+    margin-left: 60px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.box{
+    border: 2px solid hwb(0 7% 65%);
+    border-radius: 15%;
+    background-color: white;
+    width: 220px;
+    height: 200px;
+    margin-left: 80px;
+    margin-top: 50px;
+    float: left;
+    text-align: center;
+    font-family: cochin;
+    line-height: 350%;
+    font-size: 50px;
 }

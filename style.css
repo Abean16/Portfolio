@@ -1,0 +1,10 @@
+.body{
+    background-color: #c0e0ef;
+}
+
+.heading1{
+    text-align: left;
+    font-size: 50px;
+    margin-left: 60px;
+    font-family:'Courier New', Courier, monospace;
+}

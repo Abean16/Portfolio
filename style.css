@@ -58,10 +58,7 @@
     font-family: cochin;
     line-height: 450%;
     font-size: 40px;
-    float: left;
     box-shadow: 10px 10px 5px grey;
-    margin-left: 9%;
-    margin-right: 9%;
 }
 
 .box:hover{
@@ -71,9 +68,14 @@
 }
 
 .boxes{
+    justify-content: space-around;
+    align-items:center;
     display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 
@@ -154,5 +156,4 @@
     cursor: pointer;
     transform: scale(1.1);  
     transition: transform 0.5s;
-    
 }

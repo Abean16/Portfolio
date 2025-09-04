@@ -59,6 +59,8 @@
     line-height: 450%;
     font-size: 40px;
     box-shadow: 10px 10px 5px grey;
+    text-shadow: #c0e0ef 4  px 4px 4px;
+    font-weight: ;
 }
 
 .box:hover{

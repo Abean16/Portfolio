@@ -9,6 +9,8 @@
     height: 600px;
     margin-top: -5px;
 }
+
+
 .heading1{
     text-align: left;
     font-size: 50px;
@@ -16,12 +18,14 @@
     font-family:'Courier New', Courier, monospace;
 }
 
+
 .heading2{
     text-align: left;
     font-size: 80px;
     margin-left: 60px;
     font-family: Cochin;
 }
+
 
 .heading3{
     text-align: left;
@@ -31,6 +35,7 @@
     line-height: 0%;
 }
 
+
 .about-me{
     text-align: left;
     font-size: 20px;
@@ -39,12 +44,14 @@
     line-height: 200%;
 }
 
+
 .white-bar{
     background-color: white;
     width: 100%;
     height: 100px;
     margin-top: 200px;
 }
+
 
 .heading1-2{
     text-align: center;
@@ -54,6 +61,7 @@
     margin-left: 9%;
     margin-right: 9%;
 }
+
 
 .box{
     border: black 2px solid;
@@ -71,14 +79,15 @@
     font-weight:bold;
 }
 
+
 .box:hover{
     cursor: pointer;
     transform: scale(1.1);  
     transition: transform 0.5s;
     box-shadow: 10px 10px 5px grey;
     background-image: linear-gradient(180deg, rgb(255, 255, 255), #c0e0ef);
-
 }
+
 
 .boxes{
     justify-content: space-evenly;
@@ -98,6 +107,7 @@
     margin-left:45%;
 }
 
+
 .laptop-frame {
     position: absolute;
     top: 0; left: 0;
@@ -106,6 +116,7 @@
     pointer-events: none;
 }
 
+
 .laptop-screen {
     position: absolute;
     top: 3%;
@@ -113,8 +124,33 @@
     width: 84%;
     height: 52%;
     border: none;
-    background-color: #478fb4;
+    background-color: #c0e0ef;
 }
+
+
+.contact-box{
+    border: black 2px solid;
+    width: 150px;
+    height: 60px;
+    margin: 20px;
+    box-shadow:
+    0 0 5px #c0e0ef, 
+    0 0 10px #67c5f0,
+    0 0 15px #38c0ff,
+    0 0 10px #2fbcfd; 
+    background-image: linear-gradient(180deg, rgb(255, 255, 255), #c0e0ef);
+    text-align: center;
+    line-height: 350%;
+}
+
+.contact-boxes{
+    justify-content: space-evenly;
+    align-items:center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 
 .project-section{
     margin-top: 50px;
@@ -137,6 +173,7 @@
     gap: 50px;
 }
 
+
 .bubble{
     text-align: center;
     padding: 10px 20px;
@@ -148,6 +185,7 @@
     text-decoration: none;
 }
 
+
 .bubble:hover{
     cursor: pointer;
     transform: scale(1.1);  
@@ -155,13 +193,9 @@
     text-decoration: underline;
 }
 
-.bubble:link, .bubble:visited, .bubble:active{
-    text-decoration: none;
-    color: yellow;
-}
 
 .mini-nav{
-    background-color: #c0e0ef;
+    background-color: #478fb4;
     position: relative;
     height: 20px;
     width: 100%;
@@ -209,6 +243,7 @@
     margin: 2%;
 }
 
+
 .project-description{
     margin-left: 40%;
     font-size: 15px;
@@ -216,12 +251,14 @@
     line-height: 200%;
 }
 
+
 .project-section{
     margin-top: 50px;
     margin-bottom: 0px;
     text-align: left;
     margin-left: 9%;
 }
+
 
 @media screen and (max-width: 600px) {
     .project-box {
@@ -246,5 +283,4 @@
         text-align: center;
     }
 
-    
 }

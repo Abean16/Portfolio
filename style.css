@@ -381,7 +381,8 @@
 
     .heading1{
         font-size: 30px;
-        text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
     .heading2{

@@ -153,7 +153,6 @@
 }
 
 
-
 .flip-box-inner {
     position: relative;
     width: 100%;
@@ -162,9 +161,11 @@
     transform-style: preserve-3d;
 }
 
+
 .contact-box:hover .flip-box-inner {
     transform: rotateY(180deg);
 }
+
 
 .flip-box-front,
 .flip-box-back {
@@ -185,6 +186,7 @@
     backface-visibility: hidden; 
     border-radius: 8px;
 }
+
 
 .flip-box-back {
     transform: rotateY(180deg);
@@ -213,6 +215,7 @@
     font-weight:200;
     margin-top: -10%;
 }
+
 
 .contact-boxes{
     justify-content: space-evenly;
@@ -254,6 +257,7 @@
     border-radius: 10%;
     background-color: #c0e0ef;
 }
+
 
 .bubble-label{
     text-decoration: none;
@@ -364,6 +368,34 @@
 
 
 @media screen and (max-width: 600px) {
+    .laptop-container{
+        display: none;
+    }
 
+    .heading1{
+        font-size: 30px;
+        margin-left: 20px;
+    }
 
+    .heading2{
+        font-size: 40px;
+        margin-left: 20px;
+    }
+
+    .heading3{
+        font-size: 40px;
+        margin-left: 150px;
+    }
+
+    .about-me{
+        font-size: 14px;
+        margin-right: 20%;
+        margin-left: 5%;
+    }
+
+    .white-bar{
+        margin-top: -20%;
+    }
+
+    
 }

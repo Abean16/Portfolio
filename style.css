@@ -16,6 +16,7 @@
     font-size: 50px;
     margin-left: 60px;
     font-family:'Courier New', Courier, monospace;
+    padding-bottom: 5%;
 }
 
 
@@ -401,7 +402,7 @@
         margin-right: 10%;
         margin-left: 10%;
         text-align: center;
-        padding-top: 10%;
+        padding-top: 5%;
         padding-bottom: 30%;
     }
 

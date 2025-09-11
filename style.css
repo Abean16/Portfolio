@@ -382,6 +382,7 @@
     .heading1{
         font-size: 30px;
         margin-left: 40px;
+        text-align: center;
     }
 
     .heading2{
@@ -396,13 +397,14 @@
 
     .about-me{
         font-size: 14px;
-        margin-right: 20%;
-        margin-left: 20%;
+        margin-right: 10%;
+        margin-left: 10%;
         text-align: center;
+        padding-top: 10%;
     }
 
     .white-bar{
-        margin-top: -20%;
+        margin-top: -10%;
         width: 100%;
     }
 
@@ -415,7 +417,7 @@
         align-items: center;
         display: flex;
         flex-wrap: wrap;
-        padding-bottom: 20%;
+        padding-bottom: 10%;
     }
     .box{
         margin-top: 20px;

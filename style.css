@@ -395,7 +395,8 @@
     .about-me{
         font-size: 14px;
         margin-right: 20%;
-        margin-left: 5%;
+        margin-left: 10%;
+        text-align: center;
     }
 
     .white-bar{
@@ -444,7 +445,7 @@
         text-align: left;
         line-height: 450%;
         font-size: 22px;
-        margin-left: 20%;
+        margin-left: 15%;
         margin-right: 20%;
         align-self: center;
     }

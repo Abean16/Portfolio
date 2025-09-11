@@ -417,7 +417,8 @@
         align-items: center;
         display: flex;
         flex-wrap: wrap;
-        padding-bottom: 10%;
+        padding-bottom: 5%;
+        margin-bottom: 10%;
     }
     .box{
         margin-top: 20px;

@@ -403,5 +403,67 @@
         margin-top: -20%;
     }
 
+    .boxes{
+        margin-left: 5%;
+        margin-right: 5%;
+        gap: 20px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 20%;
+    }
+    .box{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 120px;
+        height: 120px;
+        font-size: 22px;
+        line-height: 500%;
+        border-radius: 20%;
+        font-weight:bold;
 
+    }
+
+    .heading1-2{
+        font-size: 30px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+    }
+
+    .project-section{
+        margin: 0%;
+    }
+
+    .project-box{
+        width: 300px;
+        height:100px;
+        margin-top: 60px;
+        text-align: left;
+        line-height: 450%;
+        font-size: 22px;
+        margin-left: 20%;
+        margin-right: 20%;
+        align-self: center;
+    }
+
+    .title-box{
+        width: 100px;
+        height: 80px;
+        text-align: center;
+        line-height: 250%;
+        font-size: 25px;
+        float: left;
+        margin: 2%;
+    }
+
+    .project-description{
+        font-size: 12px;
+        text-align: center;
+        margin-top: 2%;
+    }
+
+    
 }
